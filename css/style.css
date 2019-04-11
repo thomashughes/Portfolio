@@ -68,7 +68,7 @@ margin-right:-1em
 }
 
 .page1 {
-  border:3px  grey; display:grid;  height:900px; width:auto; 
+  border:3px  grey; display:grid;  height:900px; width:auto;
 grid-template-columns:10em 20em auto 20em 10em;
 grid-template-rows:11em 22em auto 22em 11em;
 background:url('https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20818826_10154646249557117_4489232133238342381_o.jpg?oh=bd9a4d33c04213507833eb8a8955093d&oe=5A2D6940');
@@ -76,7 +76,7 @@ background-size:contain;
 }
 
 .logo {
-  grid-column:4
+  grid-column:4<!--comment in portfoliooooooo-->
  }
 
 
