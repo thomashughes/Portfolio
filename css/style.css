@@ -1,4 +1,4 @@
-body { 
+body {
   background-image:url();
 background-attachment: fixed;
   background-repeat:no-repeat;
@@ -62,20 +62,20 @@ margin-right:-1em
 
 
 
-  
+
 .page:hover{
   text-decoration:line-through
 }
 
 .page1 {
-  border:3px  white; display:grid;  height:900px; width:auto; 
+  border:3px  grey; display:grid;  height:900px; width:auto; 
 grid-template-columns:10em 20em auto 20em 10em;
 grid-template-rows:11em 22em auto 22em 11em;
 background:url('https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20818826_10154646249557117_4489232133238342381_o.jpg?oh=bd9a4d33c04213507833eb8a8955093d&oe=5A2D6940');
 background-size:contain;
 }
 
-.logo { 
+.logo {
   grid-column:4
  }
 
@@ -92,7 +92,7 @@ grid-row:3;
 grid-column:3;
 }
 
-.logo{ 
+.logo{
   display:block;
    margin:0 auto;
    width:200px;
@@ -159,14 +159,14 @@ padding-bottom:10px;
 .cube {
   position: relative;
   border-radius:3%;
-  width: 100%; 
-  height:100%; 
+  width: 100%;
+  height:100%;
   border:3px black solid;
   margin:;
   overflow: hidden;
   background:blue;}
-  
-  
+
+
   .cube div {
   position: absolute;
   top: 0;
@@ -179,9 +179,9 @@ padding-bottom:10px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-  
-  
- 
+
+
+
 .slideTextRight img {
   margin-top:20px;
 }
@@ -200,7 +200,7 @@ padding-bottom:10px;
   transition: all .3s ease;
 }
 
-.slideTextRight div:nth-child(2) { 
+.slideTextRight div:nth-child(2) {
   left: 100%;
 }
 
@@ -222,19 +222,19 @@ border-radius:2%;
    background-repeat:no-repeat;
   background-position:center;
     background-size:cover;
-  width: 22em; 
-  height:22em; 
+  width: 22em;
+  height:22em;
 }
 
 .object1 {
   grid-row:2; ;
-  grid-column:2; 
+  grid-column:2;
   background:url(https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20863577_10154646327427117_6234785164715716118_o.jpg?oh=e059a2a14fe787101fc8cbe65a7da673&oe=59F057FC);
 }
 
 .object2 {
   grid-row:2;
-grid-column:4; 
+grid-column:4;
     background:url(https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/20786008_10154646327607117_5816309450320593249_o.jpg?oh=d81507ab4a22f7089278a81ddb32a4de&oe=59F1F1A2);
 }
 
